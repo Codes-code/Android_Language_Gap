@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayushjindal.learncodeonline1.FirstScreen">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/kya_bhauk_rha_hai"
+        android:onClick="Ball"
+        android:elevation="70dp"
+        />
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="34dp"
+        android:src="@drawable/whatsup_daug"
+        android:onClick="Doll"
+        android:elevation="70dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yo Wasuuuuuupppp douuugg??"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/English"
+        android:visibility="invisible"
+        android:fontFamily="cursive"
+        android:textSize="40dp"/>
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Kya bhauk rha hai tera lund aaj?"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Hindi"
+        android:visibility="visible"
+        android:fontFamily="casual"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
+
